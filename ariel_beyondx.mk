@@ -10,7 +10,7 @@
 $(call inherit-product, vendor/ariel/config/ariel_common.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/lineage/beyondx/lineage_beyondx.mk)
+$(call inherit-product, device/samsung/beyondx/lineage_beyondx.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := ariel_beyondx
