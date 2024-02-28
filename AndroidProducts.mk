@@ -15,9 +15,12 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_beyondx.mk
+    $(LOCAL_DIR)/lineage_beyondx.mk \
+    $(LOCAL_DIR)/ariel_beyondx.mk
 
 COMMON_LUNCH_CHOICES := \
     lineage_beyondx-eng \
     lineage_beyondx-user \
-    lineage_beyondx-userdebug
+    lineage_beyondx-userdebug \
+    ariel_beyondx-userdebug \
+    ariel_beyondx-eng
